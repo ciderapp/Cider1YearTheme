@@ -1,0 +1,15 @@
+{
+	"name" : "1 Year Anniversary",
+	"description" : "Cider 1 Year Anniversary Theme",
+	"version" : "1.0.0",
+	"author" : "booploops",
+	"github_repo" : "ciderapp/Cider1YearTheme",
+	"directives" : {
+		"windowLayout" : {
+			"value" : "default"
+		},
+		"appNavigation" : {
+			"value" : "seperate"
+		}
+	}
+}

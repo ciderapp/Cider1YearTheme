@@ -1,0 +1,58 @@
+body {
+    font-family: system-ui, "Pretendard Variable";
+}
+
+.app-chrome .app-chrome-item > .app-mainmenu {
+    width: 100px;
+    border-radius:4px!important;
+    background-image: url("logotmp.png");
+    background-size: 90px;
+    transform: unset!important;
+}
+
+.app-drawer {
+    top: calc(var(--chromeHeight1) + 0%);
+    height: calc(calc(100% - 2%) - var(--chromeHeight1));
+}
+
+.app-chrome:not(.chrome-bottom) {
+    position       : relative;
+    background     : unset;
+    border         : 0px;
+    box-shadow     : unset;
+    backdrop-filter: unset;
+    // background-color: rgb(30, 30, 31, 20%);
+}
+
+.app-navigation {
+    // background-color: rgb(30, 30, 31, 20%);
+    background-color: unset;
+    height: calc(100% - var(--chromeHeight1));
+}
+
+#app-sidebar {
+    padding-top: 0px;
+    background : unset;
+}
+
+#app-content {
+    border-radius: 10px 0px 0px 0px !important;
+    border       : 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: unset;
+    border-right : unset;
+    --navigationBarHeight: 40px;
+}
+
+.content-inner {
+    top             : calc(var(--navigationBarHeight) / 2);
+}
+
+.search-input {
+    border: 1px solid rgb(200 200 200 / 10%);
+    background: rgb(100 100 100 / 25%);
+    color: rgb(200 200 200);
+}
+
+#navigation-bar {
+
+}
